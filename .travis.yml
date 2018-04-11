@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: WAcTN5aqQ3HcYCDVElTWQ1Il1WmqhJjJHeIAT50QUebMK5SVMVrlHK03OhNKxVgKwniyMHuXjPpDBHSMS+ysB58H5YWcS+ThcaIVhP8L6wcbe+RkcTqA8roLNebAV8uLi7lqD9vc4jNjy9m2Sc2EtoK3alsnkYTcu9VPQvUz0s+yLH81b7v7xpXdIXQb3OEvZIlIG0JACfDBIhVf4li0xgdstZNmSGz4pyQqb8Qg4THHbd0PO68mU5R/4ffyEkDyc9RITtoeK3uCtmCC0lQdMTQAe3UUWDgtMUxgFP9SVMjZzQa4j5IUq6Vr23dKLtYwa+SW7l2AisikYO08RDaMaSNwQj/LOHdlw7+NFBvFcennvyaAclKoCyFK8Y1Sy+UVeVqcWLaOKHaWmw5PZ4regHlLt/dKLfSpTiOZ94VprnEPKzi5zGm/hlQ4LKSu1SHMU/nWWiDjJlk2jbytKO61bNjH4BmEI7mgxqrcsUYpueoqhRj00A4J1+ElICvgKhJkGt6JQk1E0NrY0Ix8o2sMinX9/xySgSppclKDYr96CfbZlJHLYXbQMLJ70m90vhQ80C+hJ8FrVQnrP3nC5LT6wN/2h7QfDdGDXuuNZcbteXQUNdoD5Z3hAffkFIv5mPutAzLDPztQTE6USkWMOG9brnLmrfgm/zzoqmescGLMerk=
+  app: https://git.heroku.com/pure-harbor-16740.git
+  on:
+    repo: jtontiwith/node-shopping-list-integration-tests
